@@ -84,60 +84,6 @@ function editTask(newLI,taskSpace, bttnEdit,bttnRemove) {
 
 }
 
-    //  // Przycisk zatwierdzania edycji
-    //  const approveButton = document.createElement("button");
-    //  approveButton.innerText = "Zatwierdź";
-    //  approveButton.addEventListener("click", () => {
-    //      taskTextNode.innerText = inputField.value;  // Aktualizuj tekst zadania
-    //      cancelEdit();  // Usuń elementy edycji
-    //  });
- 
-    //  // Przycisk anulowania edycji
-    //  const cancelButton = document.createElement("button");
-    //  cancelButton.innerText = "Anuluj";
-    //  cancelButton.addEventListener("click", () => {
-    //      cancelEdit();  // Usuń elementy edycji bez zmiany tekstu
-    //  });
- 
-    //  // Dodaj przyciski "Zatwierdź" i "Anuluj"
-    //  newLI.appendChild(approveButton);
-    //  newLI.appendChild(cancelButton);
-
- 
-     // Funkcja anulująca edycję
-    //  function cancelEdit() {
-    //      inputField.remove();
-    //      approveButton.remove();
-    //      cancelButton.remove();
-    //      taskTextNode.style.display = "";  // Przywróć widoczność oryginalnego tekstu
-    //  }
- 
- 
-    
-    // taskitem.innerText = " ";
-    // const inputField = document.createElement("input");
-    // taskitem.appendChild(inputField);
-    // const bttnAccept = document.createElement("button"); // tworzymy nowy button do usuwania
-    // taskitem.appendChild(bttnAccept);  // dodajemy do sekcji li
-    // bttnAccept.innerText = "Zatwierdz";
-    // bttnAccept.className = "approvebuttons"
-    // bttnAccept.addEventListener("click",()=>{  // Obsługa zdarzenia kliknięcia
-    //     const newInput = inputField.value;
-    //     if(newInput !== ""){  
-    //         taskitem.innerText = newInput;
-            
-    //         // taskList.removeChild(inputField);
-    //     } else {    
-    //         alert("wpisz poprawana nazwe");
-    //     }
-    // }) 
-    // return inputField;
-
-
-
-
-
-
 // Obsługa zdarzenia kliknięcia przycisku „Dodaj zadanie”
 
     button.addEventListener("click",()=>{
